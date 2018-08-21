@@ -1,3 +1,2 @@
-Starting with react
-
-my first game in react tictactoe
+<h1>TicTacToe</h1>
+<p>Browser based game<p>
