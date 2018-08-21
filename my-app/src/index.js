@@ -19,6 +19,12 @@ constructor(props) {
 }
 
 class Board extends React.Component {
+constructor(probs){
+  super(probs);
+  this.state = {
+    square : Array(9).fill(null),
+  };
+}
   renderSquare(i) {
     return <Square value={i} />;
   }
